@@ -11,18 +11,18 @@
     	font-size: 3.5rem;
         }
       }
-#coverm {
+.coverm {
 	background-image: url("../img/photo1712726834(1).jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-#logo001{
+.logo001{
 	height: 2em!important;
 }
-#block{
-	background-color: #404042b8;
+.block{
+	background-color: #414042b8;
 }
 
 /*#topLine {
@@ -52,7 +52,7 @@ body {
 }
 
 .photo6{
-	width: 55%;
+	width: 80%;
 	margin: 0 auto;
 
 }
@@ -60,4 +60,8 @@ body {
 	display: flex;
    align-items: center;
    justify-content: center
+}
+
+.icons-lable {
+	min-height: 5em;
 }
