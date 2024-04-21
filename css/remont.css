@@ -41,10 +41,14 @@ body {
 	min-height: 100%;
 }
 #logorem{
-	width: 70%;
-/*	display: flex;
-   align-items: center;
-   justify-content: center*/
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+  	#logorem{
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 
 .png1{
@@ -52,10 +56,18 @@ body {
 }
 
 .photo6{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 
 }
+
+@media (min-width: 768px) {
+  	.photo6{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
 .img-center{
 	display: flex;
    align-items: center;
