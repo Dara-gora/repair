@@ -25,28 +25,16 @@
 	background-color: #414042b8;
 }
 
-/*#topLine {
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 100vw;
-	background:#6c7174!important;
-}
-
-.photo {
-	width: 100%;
-}*/
-
 body {
 	min-height: 100%;
 }
-#logorem{
+.logorem{
 	width: 100%;
 }
 
 @media (min-width: 768px) {
-  	#logorem{
-		width: 100%;
+  	.logorem{
+		width: 80%;
 		margin: 0 auto;
 	}
 }
@@ -77,3 +65,19 @@ body {
 .icons-lable {
 	min-height: 5em;
 }
+
+.coverm2 {
+	background-image: url("../img/66025c7d0ca3c9a2b14b1aaeb75ced78.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.gun{
+	width: 60%;
+}
+
+@media (min-width: 768px) {
+  	.gun{
+		width: 60%;
+		margin: 0 auto;
